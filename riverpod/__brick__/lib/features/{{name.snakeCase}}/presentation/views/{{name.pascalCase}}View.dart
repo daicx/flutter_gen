@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../providers/{{name.camelCase}}_notifier.dart';
+import '../../providers/{{name.camelCase}}_notifier.dart';
 import '../widgets/{{name.camelCase}}_item_widget.dart';
 
 class {{name.pascalCase}}View extends ConsumerWidget {

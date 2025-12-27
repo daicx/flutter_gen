@@ -1,5 +1,5 @@
-name: flutter_gen
-description: flutter_clean_architecture_gen feature Riverpod 3.x
+name: flutter_gen_riverpod_feature
+description: "flutter_clean_architecture_gen feature Riverpod 3.x brick"
 version: 0.1.0
 
 environment:
@@ -8,5 +8,5 @@ environment:
 vars:
   name:
     type: string
-    description: Feature snake_case blog_list
+    description: "Feature snake_case blog_list"
     prompt: "feature snake_case:"
