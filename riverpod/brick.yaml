@@ -9,4 +9,4 @@ vars:
   name:
     type: string
     description: "Feature snake_case blog_list"
-    prompt: "feature snake_case:"
+    prompt: "feature snake_case name"
