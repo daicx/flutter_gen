@@ -1,0 +1,12 @@
+name: flutter_clean_feature
+description: flutter_clean_architecture_gen feature Riverpod 3.x
+version: 0.1.0
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.2.0"
+
+vars:
+  name:
+    type: string
+    description: Feature snake_case blog_list
+    prompt: "feature snake_case:"
