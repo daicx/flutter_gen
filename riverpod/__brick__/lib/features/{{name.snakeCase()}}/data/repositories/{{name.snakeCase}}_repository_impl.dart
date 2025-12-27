@@ -1,9 +1,9 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../providers/{{name.camelCase}}_notifier.dart';
-import '../models/{{name.snakeCase}}_model.dart';
+import '../models/{{name.snakeCase()}}_model.dart';
 
-part '../models/{{name.snakeCase}}_repository_impl.g.dart';
+part '../../../{{name.snakeCase}}/data/models/{{name.snakeCase}}_repository_impl.g.dart';
 
 @riverpod
 {{name.pascalCase}}Repository {{name.camelCase}}Repository({{name.camelCase}}RepositoryRef ref) {

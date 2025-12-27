@@ -1,11 +1,11 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../data/models/{{name.snakeCase}}_model.dart';
+import '../data/models/{{name.snakeCase()}}_model.dart';
 import '../data/repositories/{{name.snakeCase}}_repository_impl.dart';
 
-part '../providers/{{name.camelCase}}_notifier.g.dart';
-part '../providers/{{name.camelCase}}_state.freezed.dart';
+part '../../{{name.snakeCase}}/providers/{{name.camelCase}}_notifier.g.dart';
+part '../../{{name.snakeCase}}/providers/{{name.camelCase}}_state.freezed.dart';
 
 @freezed
 class {{name.pascalCase}}State with _${{name.pascalCase}}State {

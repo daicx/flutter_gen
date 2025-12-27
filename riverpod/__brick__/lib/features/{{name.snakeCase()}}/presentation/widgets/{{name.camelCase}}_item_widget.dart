@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../data/models/{{name.snakeCase}}_model.dart';
+import '../../data/models/{{name.snakeCase()}}_model.dart';
 
 class {{name.pascalCase}}ItemWidget extends ConsumerWidget {
   final {{name.pascalCase}}Model item;

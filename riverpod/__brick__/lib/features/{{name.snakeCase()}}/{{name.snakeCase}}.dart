@@ -1,4 +1,4 @@
-export 'data/models/{{name.snakeCase}}_model.dart';
+export 'data/models/{{name.snakeCase()}}_model.dart';
 export 'data/repositories/{{name.snakeCase}}_repository_impl.dart';
 export 'providers/{{name.camelCase}}_notifier.dart';
 export 'presentation/views/{{name.pascalCase}}View.dart';
